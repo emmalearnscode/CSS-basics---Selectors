@@ -108,11 +108,11 @@ li:first-child {
 
 /* 20. Ge alla p som kommer efter h2-elementet i den trdje div-en (class="third") en vit färg #fff Tips: General sibling selector*/
 .third h2 ~ p {
-    background-color: white;
+    color: white;
 }
 
 /* 21. Ge den andra paragrafen i .contatinern en röd färg  font-size till 32px; (En utmaning...)*/
-.container p.hello {
+.container > p:nth-of-type(2) {
     color: red;
     font-size: 32px;
 }
